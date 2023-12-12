@@ -1,0 +1,145 @@
+#Open R Session in Command line: R
+#load the library "maftools"
+library(maftools)
+
+
+###################
+
+
+anno1 = annovarToMaf(annovar = 'GC-126-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno1, file="anno1.maf", sep="\t", quote=FALSE, row.names=FALSE)
+
+
+anno2 = annovarToMaf(annovar = 'GC-131-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno2, file="anno2.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno3 = annovarToMaf(annovar = 'GC-132-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno3, file="anno3.maf", sep="\t", quote=FALSE,4row.names=FALSE, col.names=FALSE)
+
+
+anno4 = annovarToMaf(annovar = 'GC-133-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno4, file="anno4.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno5 = annovarToMaf(annovar = 'GC-135-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno5, file="anno5.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno6 = annovarToMaf(annovar = 'GC-136-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno6, file="anno6.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno7 = annovarToMaf(annovar = 'GC-140-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno7, file="anno7.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno8 = annovarToMaf(annovar = 'GC-141-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno8, file="anno8.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno9 = annovarToMaf(annovar = 'GC-142-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno9, file="anno9.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno10 = annovarToMaf(annovar = 'GC-143-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno10, file="anno10.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno11 = annovarToMaf(annovar = 'GC-145-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno11, file="anno11.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno12 = annovarToMaf(annovar = 'GC-147-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno12, file="anno12.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno13 = annovarToMaf(annovar = 'GC-148-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno13, file="anno13.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno14 = annovarToMaf(annovar = 'GC-84-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno14, file="anno14.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno15 = annovarToMaf(annovar = 'GC-85-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno15, file="anno15.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno16 = annovarToMaf(annovar = 'GC-86-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno16, file="anno16.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno17 = annovarToMaf(annovar = 'GC-98-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno17, file="anno17.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno18 = annovarToMaf(annovar = 'GC-106-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno18, file="anno18.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno19 = annovarToMaf(annovar = 'GC-139-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno19, file="anno19.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+anno20 = annovarToMaf(annovar = 'GC-128-T.hg38_multianno.txt', Center = 'TUM-AN', refBuild= 'hg38', sep ="\t")
+write.table(anno20, file="anno20.maf", sep="\t", quote=FALSE, row.names=FALSE, col.names=FALSE)
+
+
+##################
+
+q()
+y
+[Enter]
+
+##################
+
+
+#Concatinating all the MAF files to a single one
+#Using Unix command: 
+cat anno1.maf anno{2..20}.maf > cancer_Somatic.maf
+gzip -c cancer_Somatic.maf >  cancer_Somatic.maf.gz
+rm cancer_Somatic.maf #####In order to save sapce as MAF file will be large file
+
+
+
+#Open R Session in Command line: R
+
+library(maftools)
+laml = read.maf(maf = "cancer_Somatic.maf.gz")
+laml
+#write.mafSummary(maf = laml, basename = 'laml')
+#getClinicalData(laml)
+
+
+
+#PlotSummary
+tiff("SummaryPlot.tiff", width = 8, height = 8, units = 'in', res = 900)
+par(mar = c(5, 5, 4, 2))
+plotmafSummary(maf = laml, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE, titvRaw = FALSE)
+dev.off()
+
+
+
+#OncoPlot
+tiff("OncoPlot.tiff", width = 8, height = 8, units = 'in', res = 900)
+par(mar = c(5, 5, 4, 2))
+oncoplot(maf = laml, top = 10)
+dev.off()
+
+
+
+#Transition and Transversion plot
+tiff("titv.tiff", width = 8, height = 8, units = 'in', res = 900)
+par(mar = c(5, 5, 4, 2))
+laml.titv = titv(maf = laml, plot = FALSE, useSyn = TRUE)
+plotTiTv(res = laml.titv)
+dev.off()
+
+
+
+#Lolipop Plot Per gene
+tiff("lolipop_plot_tp53_with_position_Label.tiff", width = 8, height = 8, units = 'in', res = 900)
+par(mar = c(5, 5, 4, 2))
+lollipopPlot(maf = laml, gene = 'TP53', AACol = 'aaChange', showMutationRate = TRUE, labelPos = 33, proteinID = 'NP_000537')
+dev.off()
